@@ -89,8 +89,8 @@ console.log(doAddition(2));
 // this will output undefined. When the expect parameters aren't passed, JS will fill them with undefined and 
 // undefined + any other value is equal to undefined
 
-console.log(doAddition("2","3",3 ));
-// 8, when JS gets + operator with string and number, it'll try to parse the String as a number and so "2" and "3" will be converted to a number
+console.log(doAddition(2,3,3 ));
+// 8, addition will perform as intended. 
 
 console.log(doAddition("first", 2, "three"));
 // "first2three", JS will try to parse the strings as numbers, but fail and so will convert the number into a string and perform the operation.
